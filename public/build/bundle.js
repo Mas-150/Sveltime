@@ -33028,13 +33028,13 @@ var app = (function () {
 
     			attr(div0, "id", "background");
     			set_style(div0, "--display", /*isOpenModal*/ ctx[0] ? 'block' : 'none');
-    			attr(div0, "class", "svelte-p8frgr");
-    			attr(button, "class", "close svelte-p8frgr");
+    			attr(div0, "class", "svelte-66upvz");
+    			attr(button, "class", "close svelte-66upvz");
     			attr(div1, "id", "container");
-    			attr(div1, "class", "svelte-p8frgr");
+    			attr(div1, "class", "svelte-66upvz");
     			attr(div2, "id", "modal");
     			set_style(div2, "--display", /*isOpenModal*/ ctx[0] ? 'block' : 'none');
-    			attr(div2, "class", "svelte-p8frgr");
+    			attr(div2, "class", "svelte-66upvz");
     		},
     		m(target, anchor) {
     			insert(target, div0, anchor);
