@@ -20,11 +20,10 @@
     border-radius: 6px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif,
       sans-serif;
-    font-size: 1.5em;
-    /* border: 2px solid brown; */
+    font-size: 1.8em;
     cursor: pointer;
     margin-left: var(--leftMargin, 4rem);
-    width: 60%;
+    width: 70%;
   }
   .showBtn {
     border-radius: 20px 20px;
@@ -35,8 +34,14 @@
   p {
     letter-spacing: 0.75px;
   }
+  
   button {
     border: none;
+  }
+
+  .componentItem:hover {
+    filter: brightness(85%);
+    border: 1px solid orange;
   }
 </style>
 

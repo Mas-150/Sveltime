@@ -399,6 +399,7 @@
     justify-content: space-around;
     align-items: flex-start;
   }
+
 </style>
 
 <Navbar

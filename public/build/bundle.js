@@ -32370,9 +32370,9 @@ var app = (function () {
     			p1 = element("p");
     			t3 = text$1("Data: ");
     			t4 = text$1(/*data*/ ctx[1]);
-    			attr(p0, "class", "svelte-16a5zkz");
-    			attr(p1, "class", "svelte-16a5zkz");
-    			attr(div, "class", "store svelte-16a5zkz");
+    			attr(p0, "class", "svelte-qhvcdx");
+    			attr(p1, "class", "svelte-qhvcdx");
+    			attr(div, "class", "store svelte-qhvcdx");
     		},
     		m(target, anchor) {
     			insert(target, div, anchor);
@@ -32424,7 +32424,7 @@ var app = (function () {
     	return child_ctx;
     }
 
-    // (27:2) {#each storeArr as store, i}
+    // (28:2) {#each storeArr as store, i}
     function create_each_block$1(ctx) {
     	let onestore;
     	let current;
@@ -32486,7 +32486,7 @@ var app = (function () {
     				each_blocks[i].c();
     			}
 
-    			attr(div, "class", "allStores svelte-gu2pyf");
+    			attr(div, "class", "allStores svelte-1sxpef3");
     		},
     		m(target, anchor) {
     			insert(target, div, anchor);
@@ -32586,9 +32586,9 @@ var app = (function () {
     			t1 = space();
     			button = element("button");
     			button.textContent = "+";
-    			attr(p, "class", "svelte-lucznc");
-    			attr(button, "class", "showBtn svelte-lucznc");
-    			attr(div, "class", "componentItem svelte-lucznc");
+    			attr(p, "class", "svelte-yylb1w");
+    			attr(button, "class", "showBtn svelte-yylb1w");
+    			attr(div, "class", "componentItem svelte-yylb1w");
     		},
     		m(target, anchor) {
     			insert(target, div, anchor);
@@ -32674,7 +32674,7 @@ var app = (function () {
     	return child_ctx;
     }
 
-    // (29:4) {#each arr as item, i}
+    // (30:4) {#each arr as item, i}
     function create_each_block(ctx) {
     	let element_1;
     	let div;
@@ -32757,8 +32757,8 @@ var app = (function () {
     				each_blocks[i].c();
     			}
 
-    			attr(div0, "class", "elementTree svelte-yvv3hx");
-    			attr(div1, "class", "container svelte-yvv3hx");
+    			attr(div0, "class", "elementTree svelte-t0sjv3");
+    			attr(div1, "class", "container svelte-t0sjv3");
     		},
     		m(target, anchor) {
     			insert(target, div1, anchor);
@@ -33028,13 +33028,13 @@ var app = (function () {
 
     			attr(div0, "id", "background");
     			set_style(div0, "--display", /*isOpenModal*/ ctx[0] ? 'block' : 'none');
-    			attr(div0, "class", "svelte-66upvz");
-    			attr(button, "class", "close svelte-66upvz");
+    			attr(div0, "class", "svelte-p8frgr");
+    			attr(button, "class", "close svelte-p8frgr");
     			attr(div1, "id", "container");
-    			attr(div1, "class", "svelte-66upvz");
+    			attr(div1, "class", "svelte-p8frgr");
     			attr(div2, "id", "modal");
     			set_style(div2, "--display", /*isOpenModal*/ ctx[0] ? 'block' : 'none');
-    			attr(div2, "class", "svelte-66upvz");
+    			attr(div2, "class", "svelte-p8frgr");
     		},
     		m(target, anchor) {
     			insert(target, div0, anchor);
@@ -33129,7 +33129,7 @@ var app = (function () {
     	};
     }
 
-    // (339:2) {#if showTree}
+    // (340:2) {#if showTree}
     function create_if_block(ctx) {
     	let elementtree;
     	let current;
@@ -33211,7 +33211,7 @@ var app = (function () {
     			if (if_block0) if_block0.c();
     			t2 = space();
     			if (if_block1) if_block1.c();
-    			attr(div, "class", "container svelte-crcgyn");
+    			attr(div, "class", "container svelte-1o6fqo3");
     		},
     		m(target, anchor) {
     			mount_component(navbar, target, anchor);

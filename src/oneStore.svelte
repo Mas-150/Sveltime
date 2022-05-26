@@ -8,8 +8,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* background-color: #3e4c59; */
-    background-color: rgb(62, 62, 62);
+    background-color: #3e4c59;
     padding: 2px 15px;
     margin: 20px;
     border-radius: 6px;
@@ -20,8 +19,14 @@
     color: #eee;
     min-width: 60%;
     width: 260px;
-    /* border: 1px solid rgb(115, 117, 126); */
+    border: 1px solid rgb(115, 117, 126);
   }
+
+  .store:hover {
+    filter: brightness(85%);
+    border: 1px solid orange;
+  }
+
   p {
     font-size: 1.5em;
     letter-spacing: 0.75px;
